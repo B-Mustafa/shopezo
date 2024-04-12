@@ -21,12 +21,16 @@ export default function Navbar() {
   return (
     <>
       <nav>
-        <ul>
-          <li><Link href={"/"} >Home</Link></li>
-          <li><Link href={"/"} >About</Link></li>
-          <li><Link href={"/"} ></Link></li>
-          <li><Link href={"/"} ></Link></li>
-          <li><Link href={"/"} ></Link></li>
+        <ul className='flex justify-between p-2'>
+          <li><Link href={"/"} >Electronics</Link></li>
+          <li><Link href={"/"} >TV & Appliances</Link></li>
+          <li><Link href={"/"} >Men </Link></li>
+          <li><Link href={"/"} >Women</Link></li>
+          <li><Link href={"/"} >Baby & Kids</Link></li>
+          <li><Link href={"/"} >Home & Furniture</Link></li>
+          <li><Link href={"/"} >Sports , Books & More</Link></li>
+          <li><Link href={"/"} >Beaty , Health & Grocery</Link></li>
+          <li><Link href={"/"} >Shopezo Offers</Link></li>
         </ul>
       </nav>
     </>
