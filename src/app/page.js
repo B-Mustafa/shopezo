@@ -1,12 +1,12 @@
-import Header from "@/components/Header";
-import Navbar from "@/components/Navbar";
-
+import Image from "next/image";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
-    <Header/>
-    <Navbar/>
+      <Header/>
+      <Navbar/>
       <section className="h-screen bg-gray-500 flex justify-center items-center">
         <h1 className="font-bold text-4xl">Home Banner</h1>
       </section>
